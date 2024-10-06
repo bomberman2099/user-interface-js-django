@@ -11,7 +11,7 @@ text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 
 
 def sections(request, num):
-    if 1 <= num >= 3:  
+    if 1 <= num <= 3:  
         response_text = f'{text} Page {num}'
         return HttpResponse(response_text)
     else:

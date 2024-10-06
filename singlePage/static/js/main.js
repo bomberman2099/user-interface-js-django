@@ -1,4 +1,5 @@
 function showCase(text){
+    
     document.querySelector('#content').innerHTML = text
 }
 
